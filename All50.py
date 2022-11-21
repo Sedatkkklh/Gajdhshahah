@@ -48,7 +48,7 @@ async def _(q):
 
 		await q.client.send_message(q.chat_id, "[{}](tg://user?id={}) {}".format(i.first_name, i.id, seasons))
 
-		sleep(50)
+		sleep(10)
 
 
 
@@ -92,7 +92,7 @@ async def _(q):
 
 		await q.client.send_message(q.chat_id, "[{}](tg://user?id={}) {}".format(i.first_name, i.id, seasons))
 
-		sleep(50)
+		sleep(10)
 
 
 
